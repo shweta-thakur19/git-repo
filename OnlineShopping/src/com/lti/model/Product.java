@@ -5,6 +5,7 @@ public class Product {
 	int prodId;
 	String prodName;
 	String prodDescrip;
+	int quantity;
 	public int getProdId() {
 		return prodId;
 	}
@@ -22,6 +23,12 @@ public class Product {
 	}
 	public void setProdDescrip(String prodDescrip) {
 		this.prodDescrip = prodDescrip;
+	}
+	public int getquantity() {
+		return prodId;
+	}
+	public void setquantity(int prodId) {
+		this.prodId = prodId;
 	}
 
 }
